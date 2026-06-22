@@ -17,6 +17,8 @@ patch:
       value: "quay.io/rhoai/odh-trustyai-service-operator-rhel9@sha256:a8ca9d287a2beaa213c0481118ebc816040d9e607741da6a673bea82c8b0b597"
     - name: RELATED_IMAGE_ODH_KUBERAY_OPERATOR_CONTROLLER_IMAGE
       value: "quay.io/rhoai/odh-kuberay-operator-controller-rhel9@sha256:d268ce303f2d7270d12b80fa64fb809188548355d32f8485b354b90dcb3d8883"
+    - name: RELATED_IMAGE_ODH_TEST_COMP_ODH_IMAGE
+      value: quay.io/opendatahub/odh-test-comp-odh@sha256:6f3330befd4c6ddc3f5c49cf18ca7f6334c354f942562a7467339045038d3703
     - name: RELATED_IMAGE_ODH_MLMD_GRPC_SERVER_IMAGE
       value: "quay.io/rhoai/odh-mlmd-grpc-server-rhel9@sha256:a6a2a5af0a98cb0c28d4d39ee804cf73476f9e84271f0bcf9f02a44cc1eeaa0e"
     - name: RELATED_IMAGE_ODH_ML_PIPELINES_API_SERVER_V2_IMAGE
